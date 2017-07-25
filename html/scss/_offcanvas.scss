@@ -1,0 +1,20 @@
+html,
+body,
+.off-canvas-wrapper,
+.off-canvas-wrapper-inner,
+.off-canvas-content,
+.page-container { height: 100% }
+
+
+.page-container { display: table; width: 100%; background: #fff; table-layout: fixed; }
+
+
+.page-header,
+.page-content,
+.page-footer {
+	display: table-row;
+	height: 1px;
+}
+.page-content {
+	height: 100%;
+}
